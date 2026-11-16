@@ -198,13 +198,6 @@ A scheduled task runs three steps in order: download, signal, execute.
 - **One branch and one findings document per experiment.** Each experiment closes with a written verdict, then either graduates into the core code or is deleted, with git history as the archive.
 - **Reproducible research.** Deterministic sampling and fixed seeds, so a result can be re-run and checked.
 
-## What I learned
-
-- The backtest is the easiest place to lie to yourself. Most of the value is in the checks that try to prove a result wrong.
-- Know how big a difference your data can detect before you argue about it.
-- Data you can't trust makes every later step meaningless, so cleaning, freshness and publish lag deserve as much care as the strategy.
-- With real orders, every default has to be the safe one.
-
 ## Further reading
 
 I also write a beginner-friendly guide to how algorithmic trading works, from the origins of markets to signals, backtesting and portfolio construction: [Algorithmic trading guide](https://app.notion.com/p/Algorithmic-trading-guide-3635adef84cd80d8ad89e4f2dc924696).
